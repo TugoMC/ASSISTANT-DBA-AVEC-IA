@@ -1,55 +1,57 @@
 # MySQL DBA Assistant
 
-## Description
-MySQL DBA Assistant est une application de bureau développée en Python qui fournit une interface graphique conviviale pour interagir avec les bases de données MySQL. Elle offre diverses fonctionnalités pour faciliter la gestion et l'analyse des bases de données MySQL.
+MySQL DBA Assistant est une application de bureau Python offrant une interface graphique intuitive pour gérer les bases de données MySQL. Elle simplifie l'administration des bases de données pour les professionnels et les débutants.
 
-## Fonctionnalités principales
-- Connexion à des bases de données MySQL
-- Affichage et navigation dans les tables de la base de données
+## Fonctionnalités
+
+- Connexion à la base de données MySQL
+- Affichage et gestion des tables
 - Exécution de requêtes SQL personnalisées
-- Visualisation des résultats des requêtes dans un tableau
-- Exportation des résultats au format Excel
-- Filtrage et tri des tables
-- Historique des commandes exécutées
+- Pagination pour la navigation dans les grands ensembles de données
+- Historique des commandes SQL
 - Aperçu de la structure de la base de données
-- Assistant IA pour l'aide à la rédaction de requêtes SQL
+- Assistant IA pour l'aide à la rédaction de requêtes
+- Exportation des résultats au format Excel (En dev)
+- Référence SQL intégrée
 
 ## Prérequis
+
 - Python 3.x
-- Bibliothèques Python : 
-  - customtkinter
-  - mysql-connector-python
-  - requests
-  - openpyxl
+- Bibliothèques : PySide6/CustomTkinter, mysql-connector-python, openpyxl, requests
 
 ## Installation
-1. Clonez ce dépôt sur votre machine locale.
-2. Installez les dépendances nécessaires :
-   ```
-   pip install customtkinter mysql-connector-python requests openpyxl
-   ```
+
+```bash
+git clone https://github.com/yourusername/mysql-dba-interface.git
+cd mysql-dba-interface
+pip install -r requirements.txt
+```
 
 ## Utilisation
-1. Lancez l'application en exécutant le script principal :
-   ```
-   python main.py
-   ```
-2. Utilisez le bouton "Connexion" dans la barre latérale pour vous connecter à votre base de données MySQL.
-3. Une fois connecté, vous pouvez naviguer dans les tables, exécuter des requêtes et utiliser les différentes fonctionnalités de l'interface.
 
+Lancez l'application :
 
-## Fonctionnalités détaillées
-- **Connexion à la base de données** : Permet de se connecter à une base de données MySQL en spécifiant l'hôte, l'utilisateur, le mot de passe et le nom de la base de données.
-- **Affichage des tables** : Liste toutes les tables de la base de données connectée.
-- **Exécution de requêtes** : Permet d'exécuter des requêtes SQL personnalisées et d'afficher les résultats.
-- **Pagination** : Navigation dans les résultats de requêtes volumineuses.
-- **Filtrage et tri** : Possibilité de filtrer et trier les tables et les résultats.
-- **Historique des commandes** : Garde une trace des commandes SQL exécutées.
-- **Aperçu de la base de données** : Fournit une vue d'ensemble de la structure de la base de données.
-- **Assistant IA** : Aide à la rédaction de requêtes SQL complexes.
+```bash
+python UI_CTK.py
+python UI_PQ.py
+```
+
+Connectez-vous à votre base de données et utilisez les fonctionnalités disponibles.
 
 ## Contribution
-Les contributions à ce projet sont les bienvenues. N'hésitez pas à ouvrir une issue ou à soumettre une pull request pour proposer des améliorations ou corriger des bugs.
+
+Les contributions sont bienvenues. N'hésitez pas à soumettre des pull requests ou à ouvrir des issues.
 
 ## Licence
-...
+
+MIT
+
+Remerciements
+
+    L'équipe PySide6 pour l'excellent framework Qt pour Python.
+    L'équipe MySQL pour leur système de gestion de base de données robuste.
+    Tous les contributeurs et utilisateurs de ce projet.
+
+## Contact
+
+Pour toute question, ouvrez une issue sur GitHub.
