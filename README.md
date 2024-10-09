@@ -22,7 +22,7 @@ MySQL DBA Assistant est une application de bureau Python offrant une interface g
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/mysql-dba-interface.git
+git clone https://github.com/TugoMC/ASSISTANT-DBA-AVEC-IA
 cd mysql-dba-interface
 pip install -r requirements.txt
 ```
